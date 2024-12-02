@@ -7,5 +7,5 @@ import (
 
 func main() {
   fmt.Println("Hello world... Running on this platform:")
-	fmt.Println(runtime.GOOS, runtime.GOARCH)
+  fmt.Println(runtime.GOOS, runtime.GOARCH)
 }
