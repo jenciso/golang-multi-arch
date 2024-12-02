@@ -16,7 +16,7 @@ build:
 publish:
 	@docker buildx create --use --name=crossplat --node=crossplat && \
 	docker buildx build \
-		--platform linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/s390x,darwin/arm64 \
+		--platform linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/s390x \
 		--output "type=image,push=true" \
 		--tag $(IMAGE) \
 		.
