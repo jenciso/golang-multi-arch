@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello world... Running on:")
+  fmt.Println("Hello world... Running on this platform:")
 	fmt.Println(runtime.GOOS, runtime.GOARCH)
 }
