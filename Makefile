@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := default
 
-IMAGE ?= ghcr.io/jenciso/golang-multi-arch:latest
+IMAGE ?= jenciso/golang-multi-arch:latest
 
 export DOCKER_CLI_EXPERIMENTAL=enabled
 
